@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Sample Page	</title>
-	<atom:link href="https://ursu1a.github.io/wordpress-test/index.php/sample-page/feed/" rel="self" type="application/rss+xml" />
-	<link>https://ursu1a.github.io/wordpress-test/</link>
+	<atom:link href="https://ursu1a.github.io/wordpress-test/static/index.php/sample-page/feed/" rel="self" type="application/rss+xml" />
+	<link>https://ursu1a.github.io/wordpress-test/static/</link>
 	<description></description>
 	<lastBuildDate>Fri, 03 May 2024 16:56:40 +0000</lastBuildDate>
 	<sy:updatePeriod>
