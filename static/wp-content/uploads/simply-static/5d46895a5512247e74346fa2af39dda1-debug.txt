@@ -1,0 +1,40 @@
+[2024-05-03 17:18:05] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-05-03 17:18:05] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2024-05-03 17:18:05] [class-ss-archive-creation-job.php:98] Pushing first task to queue: setup
+[2024-05-03 17:18:05] [class-ss-archive-creation-job.php:132] Current task: setup
+[2024-05-03 17:18:05] [class-ss-archive-creation-job.php:149] Performing task: setup
+[2024-05-03 17:18:05] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-05-03 17:18:05] [class-ss-setup-task.php:33] Creating archive directory: /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1714756685/
+[2024-05-03 17:18:05] [class-ss-setup-task.php:79] Adding origin URL to queue: http://localhost/
+[2024-05-03 17:18:05] [class-ss-setup-task.php:145] Adding files from directory: /var/www/html/wp-content/uploads
+[2024-05-03 17:18:05] [class-ss-setup-task.php:150] Adding file /var/www/html/wp-content/uploads/simply-static/5d46895a5512247e74346fa2af39dda1-debug.txt to queue as: http://localhost/wp-content/uploads/simply-static/5d46895a5512247e74346fa2af39dda1-debug.txt
+[2024-05-03 17:18:05] [class-ss-setup-task.php:150] Adding file /var/www/html/wp-content/uploads/2024/05/7aadu9ocfvx51-150x150.jpg to queue as: http://localhost/wp-content/uploads/2024/05/7aadu9ocfvx51-150x150.jpg
+[2024-05-03 17:18:05] [class-ss-setup-task.php:150] Adding file /var/www/html/wp-content/uploads/2024/05/7aadu9ocfvx51.jpg to queue as: http://localhost/wp-content/uploads/2024/05/7aadu9ocfvx51.jpg
+[2024-05-03 17:18:05] [class-ss-setup-task.php:150] Adding file /var/www/html/wp-content/uploads/2024/05/7aadu9ocfvx51-1024x576.jpg to queue as: http://localhost/wp-content/uploads/2024/05/7aadu9ocfvx51-1024x576.jpg
+[2024-05-03 17:18:05] [class-ss-setup-task.php:150] Adding file /var/www/html/wp-content/uploads/2024/05/7aadu9ocfvx51-300x169.jpg to queue as: http://localhost/wp-content/uploads/2024/05/7aadu9ocfvx51-300x169.jpg
+[2024-05-03 17:18:05] [class-ss-setup-task.php:150] Adding file /var/www/html/wp-content/uploads/2024/05/7aadu9ocfvx51-768x432.jpg to queue as: http://localhost/wp-content/uploads/2024/05/7aadu9ocfvx51-768x432.jpg
+[2024-05-03 17:18:05] [class-ss-setup-task.php:150] Adding file /var/www/html/wp-content/uploads/2024/05/7aadu9ocfvx51-1536x864.jpg to queue as: http://localhost/wp-content/uploads/2024/05/7aadu9ocfvx51-1536x864.jpg
+[2024-05-03 17:18:05] [class-ss-setup-task.php:137] File /var/www/html/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: http://localhost/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-05-03 17:18:05] [class-ss-archive-creation-job.php:171] We've found our next task: fetch_urls
+[2024-05-03 17:18:05] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-05-03 17:18:05] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-05-03 17:18:05] [class-ss-fetch-urls-task.php:55] Total pages: 9; Pages remaining: 9
+[2024-05-03 17:18:05] [class-ss-fetch-urls-task.php:58] URL: http://localhost/
+[2024-05-03 17:18:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 9
+[2024-05-03 17:18:05] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-03 17:18:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/66351c4de561c-k2MlOz.tmp
+[2024-05-03 17:18:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/?simply_static_page=33
+[2024-05-03 17:18:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/?simply_static_page=33
+[2024-05-03 17:18:06] [class-ss-url-fetcher.php:103] Filesize: 84729 bytes
+[2024-05-03 17:18:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-03 17:18:06] [class-ss-url-fetcher.php:233] New filename for static page: index.html
+[2024-05-03 17:18:06] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/66351c4de561c-k2MlOz.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1714756685/index.html
+[2024-05-03 17:18:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-03 17:18:06] [class-ss-fetch-urls-task.php:144] Adding 20 URLs to the queue
+[2024-05-03 17:18:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-03 17:18:06] [class-ss-fetch-urls-task.php:58] URL: http://localhost/wp-content/uploads/simply-static/5d46895a5512247e74346fa2af39dda1-debug.txt
+[2024-05-03 17:18:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 9
+[2024-05-03 17:18:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-03 17:18:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/66351c4e2b897-NumFcK.tmp
+[2024-05-03 17:18:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/uploads/simply-static/5d46895a5512247e74346fa2af39dda1-debug.txt?simply_static_page=34
+[2024-05-03 17:18:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/uploads/simply-static/5d46895a5512247e74346fa2af39dda1-debug.txt?simply_static_page=34

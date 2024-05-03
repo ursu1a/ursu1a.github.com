@@ -19,4 +19,8 @@
 # uncomment the next line
 #/wp-content/themes
 
+/mysql
+/sys
+/performance_schema
+
 wp-config.php
